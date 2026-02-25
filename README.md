@@ -6,11 +6,10 @@ This repo contains an end-to-end ML recommender system model. The code base will
 
 Here are some useful commands to run the code locally:
 
-# activate Virtual env:
+# activate Virtual env (for windows):
 
 ```
-virtualenv venv
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt 
 ```
@@ -20,6 +19,10 @@ python -m pip install ipykernel
 ipython kernel install --user --name=RecommederSystem
 jupyter lab &
 ```
+
+# Machine Learning Pipeline 
+![ML Recommendation Pipeline](docs/ml-pipeline.png)
+
 # Build docker image
 cd service
 
