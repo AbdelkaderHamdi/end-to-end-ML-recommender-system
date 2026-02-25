@@ -2,5 +2,5 @@ numpy
 scipy
 flask
 pandas
-sklearn
+scikit-learn
 nltk
